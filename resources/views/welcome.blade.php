@@ -18,6 +18,14 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+
+            .custom-header {
+                align-items: center;
+                justify-contents: center;
+                background-color: lightblue;
+                display: flex;
+                flex-direction: column;
+            }
         </style>
     </head>
     <body class="antialiased">
@@ -128,5 +136,9 @@
                 </div>
             </div>
         </div>
+        <br>
+        <h1 class="custom-header">
+            You can try to create carousel in here
+        </h1>
     </body>
 </html>
